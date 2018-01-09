@@ -2,9 +2,13 @@ package com.javaex.problem05;
 
 public class StringUtil {
     
-    public static String concatString(){
+    public static String concatString(String[] strArray){
        
-        //메소드 내용작성
+       String sr = "";
+       
+       for(String i : strArray) {
+    	   sr += i;
+       }return sr;
         
     }
 
