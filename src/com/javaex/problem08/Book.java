@@ -44,11 +44,11 @@ public class Book {
 		public void print() {
 			String ck = "";
 			if(code == 1) {
-				ck = "ì¬ê³ ìˆìŒ";
+				ck = "Àç°íÀÖÀ½";
 			}else if(code == 0) {
-				ck = "ì¬ê³ ì—†ìŒ";
+				ck = "Àç°í¾øÀ½";
 			}
-			String info = "ì±…ë²ˆí˜¸ : " + no + ", ì±…ì´ë¦„ : " + bookName + ", ì±…ì €ì : " + author + ", ëŒ€ì—¬ ê°€ëŠ¥ìœ ë¬´ : " + ck;
+			String info = "Ã¥¹øÈ£ : " + no + ", Ã¥ÀÌ¸§ : " + bookName + ", Ã¥ÀúÀÚ : " + author + ", ´ë¿© °¡´ÉÀ¯¹« : " + ck;
 			
 			System.out.println(info);
 		}
@@ -56,29 +56,10 @@ public class Book {
 		public void rent() {
 			if(code==1) {
 				this.code=0;
-				System.out.println(bookName + " ì´(ê°€) ëŒ€ì—¬ ëìŠµë‹ˆë‹¤. "); 
+				System.out.println(bookName + " ÀÌ(°¡) ´ë¿© µÆ½À´Ï´Ù. "); 
 			}else {
-				System.out.println(bookName + " ì´(ê°€) ì´ë¯¸ ëŒ€ì—¬ì¤‘ì…ë‹ˆë‹¤. ");
+				System.out.println(bookName + " ÀÌ(°¡) ÀÌ¹Ì ´ë¿©ÁßÀÔ´Ï´Ù. ");
 			}
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	
 		
 	}

@@ -7,7 +7,7 @@ public class StringUtilApp {
 		String[] strArray = { "SuperMan", "BatMan", "SpiderMan" };
 		String resultStr = StringUtil.concatString(strArray);
 
-		System.out.println("ê²°ê³¼ ë¬¸ìì—´:" + resultStr);
+		System.out.println("°á°ú ¹®ÀÚ¿­:" + resultStr);
 
 	}
 

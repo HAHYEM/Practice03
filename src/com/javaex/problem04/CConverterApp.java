@@ -11,10 +11,10 @@ public class CConverterApp {
         CConverter.setRate(1118.70);
         
         
-       System.out.println("ë°±ë§Œì›ì€ " + CConverter.toDoller(1000000) + "ë‹¬ëŸ¬ì…ë‹ˆë‹¤.");
+       System.out.println("¹é¸¸¿øÀº " + CConverter.toDoller(1000000) + "´Ş·¯ÀÔ´Ï´Ù.");
 
         
-       System.out.println("ë°±ë‹¬ëŸ¬ëŠ” " + CConverter.toKWR(100) + "ì…ë‹ˆë‹¤.");
+       System.out.println("¹é´Ş·¯´Â " + CConverter.toKWR(100) + "ÀÔ´Ï´Ù.");
         
         
     }

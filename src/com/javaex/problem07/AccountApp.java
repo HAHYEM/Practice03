@@ -15,38 +15,38 @@ public class AccountApp {
         while(run){
             System.out.println("");
             System.out.println("----------------------------------");
-            System.out.println("1.ì˜ˆê¸ˆ | 2.ì¶œê¸ˆ | 3.ìž”ê³  |4.ì¢…ë£Œ");
+            System.out.println("1.¿¹±Ý | 2.Ãâ±Ý | 3.ÀÜ°í |4.Á¾·á");
             System.out.println("----------------------------------");
-            System.out.print("ì„ íƒ>");
+            System.out.print("¼±ÅÃ>");
             
             int menuNo = sc.nextInt();
             
             switch(menuNo){
             
                 case 1:
-                    System.out.print("ì˜ˆê¸ˆì•¡>");
+                    System.out.print("¿¹±Ý¾×>");
                     money = sc.nextInt();
                     account.deposit(money);
                     break;
                 
                 case 2:
-                    System.out.print("ì¶œê¸ˆì•¡>");
+                    System.out.print("Ãâ±Ý¾×>");
                     money= sc.nextInt();
                     account.withdraw(money);
                     break;
                     
                 case 3:
-                    System.out.print("ìž”ê³ ì•¡>");
+                    System.out.print("ÀÜ°í¾×>");
                     account.showBalance();
                     break;
                 
                 case 4:
-                    System.out.print("í”„ë¡œê·¸ëž¨ ì¢…ë£Œ");
+                    System.out.print("ÇÁ·Î±×·¥ Á¾·á");
                     run = false;
                     break;
                     
                 default :
-                    System.out.println("ë‹¤ì‹œìž…ë ¥í•´ì£¼ì„¸ìš”");
+                    System.out.println("´Ù½ÃÀÔ·ÂÇØÁÖ¼¼¿ä");
                     break;
                     
             }//switch 

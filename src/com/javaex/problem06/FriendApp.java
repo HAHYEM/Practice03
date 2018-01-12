@@ -10,7 +10,7 @@ public class FriendApp {
 		
 		Scanner sc = new Scanner(System.in);
 		String str = "";
-		System.out.println("ì¹œêµ¬ë¥¼ 3ëª… ë“±ë¡í•´ ì£¼ì„¸ìš”");
+		System.out.println("Ä£±¸¸¦ 3¸í µî·ÏÇØ ÁÖ¼¼¿ä");
 		
         for (int i = 0; i < friendArray.length; i++) {
 			str = sc.nextLine();
@@ -20,11 +20,11 @@ public class FriendApp {
 			friendArray[i].setName(strArray[0]);
 			friendArray[i].setHp(strArray[1]);
 			friendArray[i].setSchool(strArray[2]);
-			// Friend ê°ì²´ ìƒì„±í•˜ì—¬ ë°ì´í„° ë„£ê¸°
+			// Friend °´Ã¼ »ı¼ºÇÏ¿© µ¥ÀÌÅÍ ³Ö±â
 
 		}
         for (int i = 0; i < friendArray.length; i++) {
-            //ì¹œêµ¬ì •ë³´ ì¶œë ¥ ë©”ì†Œë“œ í˜¸ì¶œ
+            //Ä£±¸Á¤º¸ Ãâ·Â ¸Ş¼Òµå È£Ãâ
         }
 
         sc.close();

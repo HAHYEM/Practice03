@@ -5,9 +5,9 @@ public class BaseApp {
     public static void main(String args[]) {
         Base base = new Base();
 
-        base.service("ë‚®");
-        base.service("ë°¤");
-        base.service("ì˜¤í›„");
+        base.service("³·");
+        base.service("¹ã");
+        base.service("¿ÀÈÄ");
     }
 
 }

@@ -3,18 +3,18 @@ package com.javaex.problem02;
 public class Base {
     
     public void service(String state) {
-        if(state.equals("ë‚®")) {
+        if(state.equals("³·")) {
         	day();
-        }else if(state.equals("ë°¤")) {
+        }else if(state.equals("¹ã")) {
         	night();
-        }else if(state.equals("ì˜¤í›„")) {
+        }else if(state.equals("¿ÀÈÄ")) {
         	afternoon();
         }
       
     }
 
     public void day() {
-        System.out.println("ë‚®ì—ëŠ” ì—´ì‹¬íˆ ì¼í•˜ì");
+        System.out.println("³·¿¡´Â ¿­½ÉÈ÷ ÀÏÇÏÀÚ");
     }
 
     public void night() {
@@ -22,7 +22,7 @@ public class Base {
     }
     
     public void afternoon(){
-        System.out.println("ì˜¤í›„ë„ ë‚®ê³¼ ë§ˆì°¬ê°€ì§€ë¡œ ì¼í•´ì•¼ í•©ë‹ˆë‹¤.");
+        System.out.println("¿ÀÈÄµµ ³·°ú ¸¶Âù°¡Áö·Î ÀÏÇØ¾ß ÇÕ´Ï´Ù.");
     }
 
 }

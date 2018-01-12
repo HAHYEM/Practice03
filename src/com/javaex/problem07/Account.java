@@ -7,7 +7,7 @@ public class Account {
 
 	public Account(String accountNo) {
 		this.accountNo = accountNo;
-	} // ìƒì„±ìž ìž‘ì„±
+	} // »ý¼ºÀÚ ÀÛ¼º
 
 	public void deposit(int money) {
 		balance += money;
@@ -17,13 +17,13 @@ public class Account {
 		if (balance > money) {
 			balance -= money;
 		} else {
-			System.out.println("ìž”ê³ ì—†ìŒ");
+			System.out.println("ÀÜ°í¾øÀ½");
 		}
 	}
 
 	public void showBalance() {
-		System.out.println("í˜„ìž¬ ìž”ê³ ì•¡ > " + balance);
+		System.out.println("ÇöÀç ÀÜ°í¾× > " + balance);
 	}
-	// í•„ìš”í•œ ë©”ì†Œë“œ ìž‘ì„±
+	// ÇÊ¿äÇÑ ¸Þ¼Òµå ÀÛ¼º
 
 }
